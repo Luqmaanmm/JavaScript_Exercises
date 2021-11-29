@@ -55,7 +55,7 @@ else if (onlineCount === 1) {
   console.log(users[0]+ " is online");
 }
 else if (onlineCount === 2) {
-  console.log(users[0] + ", " + users[1] + " are online");
+  console.log(users[0] + " and " + users[1] + " are online");
 }
 else {
   console.log(users[0] + ", " + users[1] + " and " + onlineRemaining + " more are online");
